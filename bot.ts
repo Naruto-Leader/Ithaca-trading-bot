@@ -10,7 +10,7 @@ const bot = new Bot("6014150158:AAEO-hgp2NOPYWPh07YPmWt53aI76hDmPY4"); // <-- pu
 bot.command("start", (ctx) => ctx.reply("Welcome! Up and running."));
 // Handle other messages.
 bot.on("message", async (ctx) => {
-  const message = ctx.message; // the message object
+  const message = ctx.message; // the message obj
 });    
     
 // Now that you specified how to handle messages, you can start your bot.
@@ -18,3 +18,4 @@ bot.on("message", async (ctx) => {
 
 // Start the bot.
 bot.start();
+         
